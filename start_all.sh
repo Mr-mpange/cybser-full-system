@@ -90,7 +90,18 @@ sleep 5
 
 cd ..
 
-echo -e "${GREEN}Backend API server started successfully!${NC}"
+echo
+echo "Starting frontend dashboard..."
+echo -e "${BLUE}Frontend will be available at: http://localhost:3001${NC}"
+echo
+
+# Start simple HTTP server for frontend
+cd frontend
+$PYTHON_CMD -m http.server 3001 &
+FRONTEND_PID=$!
+cd ..
+
+echo -e "${GREEN}Backend API server and frontend dashboard started successfully!${NC}"
 
 echo
 echo -e "${GREEN}========================================"
@@ -101,6 +112,7 @@ echo "Services:"
 echo -e "  ${BLUE}Backend API: http://localhost:8000${NC}"
 echo -e "  ${BLUE}API Docs:    http://localhost:8000/docs${NC}"
 echo -e "  ${BLUE}Health:      http://localhost:8000/health${NC}"
+echo -e "  ${BLUE}Dashboard:   http://localhost:3001${NC}"
 echo
 echo -e "${YELLOW}Press Ctrl+C to stop the system${NC}"
 echo

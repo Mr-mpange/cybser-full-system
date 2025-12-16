@@ -77,7 +77,17 @@ timeout /t 5 /nobreak >nul
 
 cd ..
 
-echo Backend API server started successfully!
+echo.
+echo Starting frontend dashboard...
+echo Frontend will be available at: http://localhost:3001
+echo.
+
+REM Start simple HTTP server for frontend
+cd frontend
+start "IntelliGuard Dashboard" cmd /k "python -m http.server 3001"
+cd ..
+
+echo Backend API server and frontend dashboard started successfully!
 
 echo.
 echo ========================================
@@ -88,6 +98,7 @@ echo Services:
 echo   Backend API: http://localhost:8000
 echo   API Docs:    http://localhost:8000/docs
 echo   Health:      http://localhost:8000/health
+echo   Dashboard:   http://localhost:3001
 echo.
 echo Press Ctrl+C in the backend window to stop the system
 echo.

@@ -1,3 +1,0 @@
-"""
-IntelliGuard API Package
-"""

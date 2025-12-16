@@ -28,9 +28,10 @@ chmod +x start_all.sh
 ```
 
 ### 3. Access IntelliGuard
+- **🎛️ Web Dashboard**: http://localhost:3001
 - **🌐 API Server**: http://localhost:8000
 - **📚 Interactive Docs**: http://localhost:8000/docs
-- **� Healtht Check**: http://localhost:8000/health
+- **💓 Health Check**: http://localhost:8000/health
 
 ### 4. Test the System (Optional)
 ```bash
@@ -64,6 +65,7 @@ python test_intelliguard.py
 ```
 intelliguard/
 ├── 📁 backend/                 # FastAPI backend application
+├── 📁 frontend/               # Web dashboard interface
 │   ├── 📁 app/                # Main application code
 │   │   ├── 📁 api/            # API endpoints
 │   │   ├── 📁 core/           # Core functionality (config, database, cache)
@@ -95,7 +97,8 @@ intelliguard/
 3. 🔧 **Setup Environment** - Create `.env` configuration file
 4. 📁 **Create Directories** - Make logs, uploads, temp folders
 5. 🚀 **Start Backend** - Launch FastAPI server on port 8000
-6. 📊 **Display URLs** - Show all service endpoints
+6. 🌐 **Start Dashboard** - Launch web dashboard on port 3001
+7. 📊 **Display URLs** - Show all service endpoints
 
 ### Windows (`start_all.bat`)
 - ✅ Automatic dependency installation
@@ -438,6 +441,7 @@ start_all.bat          # Windows
 ```
 
 ### Access Points
+- Dashboard: http://localhost:3001
 - API: http://localhost:8000
 - Docs: http://localhost:8000/docs
 - Health: http://localhost:8000/health
