@@ -1,0 +1,3 @@
+"""
+IntelliGuard Core Package
+"""

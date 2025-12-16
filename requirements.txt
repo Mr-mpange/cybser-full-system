@@ -1,10 +1,32 @@
-numpy==1.24.3
-pandas==2.0.3
-scikit-learn==1.3.0
-matplotlib==3.7.2
-seaborn==0.12.2
-tensorflow==2.13.0
-jupyter==1.0.0
-plotly==5.15.0
-imbalanced-learn==0.11.0
-xgboost==1.7.6
+# IntelliGuard Core Requirements
+# Essential dependencies for the cyber security system
+
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Machine Learning
+scikit-learn==1.3.2
+pandas==2.1.4
+numpy==1.25.2
+joblib==1.3.2
+
+# Database (SQLite for simplicity)
+sqlalchemy==2.0.23
+
+# HTTP & API
+httpx==0.25.2
+requests==2.31.0
+
+# Monitoring
+psutil==5.9.6
+
+# File Processing
+python-multipart==0.0.6
+
+# Configuration
+python-dotenv==1.0.0
+
+# Validation
+validators==0.22.0
