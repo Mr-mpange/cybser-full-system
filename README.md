@@ -272,4 +272,5 @@ python -c "import src.models; print('✅ System ready!')"
 
 ---
 
-**🚀 Ready to detect cyber attacks with 96% accuracy!**
+**🚀 Ready to detect cyber attacks with 96% accuracy!**#   c y b s e r - f u l l - s y s t e m  
+ 
