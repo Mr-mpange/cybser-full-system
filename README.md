@@ -123,7 +123,7 @@ selector = joblib.load('models/enhanced/feature_selector.pkl')
 ## 📁 **Project Structure**
 
 ```
-cyber-detect/
+cybser-full-system/
 ├── main.py                    # 🚀 Main system (96% accuracy)
 ├── demo_detection.py          # 🎯 Production demo & testing
 ├── requirements.txt           # 📦 Dependencies
@@ -250,7 +250,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 **Contact**
 
 - **GitHub**: [@Mr-mpange](https://github.com/Mr-mpange)
-- **Project**: [cyber-detect](https://github.com/Mr-mpange/cyber-detect)
+- **Project**: [cybser-full-system](https://github.com/Mr-mpange/cybser-full-system)
 
 ---
 
@@ -272,5 +272,6 @@ python -c "import src.models; print('✅ System ready!')"
 
 ---
 
-**🚀 Ready to detect cyber attacks with 96% accuracy!**#   c y b s e r - f u l l - s y s t e m  
+**🚀 Ready to detect cyber attacks with 96% accuracy!**#   c y b s e r - f u l l - s y s t e m 
+ 
  
